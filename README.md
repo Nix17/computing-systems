@@ -1,4 +1,4 @@
 # computing-systems
 Practice, laboratory work, calculation task
 
-hello
+gcc -fopenmp name.c -o name
