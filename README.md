@@ -19,6 +19,21 @@ mpirun -n NUM compileProg
 
 ```mpicc <имя исходного файла.c> -fopenmp -o <имя исполняемого файла>``` 
 
+Компиляция CUDA-программ
+
+```
+module load CUDA
+module load GCC
+
+module load CUDA && module load GCC
+
+nvcc <имя файла>.cu -o <имя файла>
+srun <имя файла>
+```
+
+========================
+
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
