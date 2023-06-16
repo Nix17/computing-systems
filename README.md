@@ -1,6 +1,6 @@
 # computing-systems
 Practice, laboratory work, calculation task
-
+mycluster23
 ```gcc -fopenmp name.c -o name```
 
 ```mpicc <имя исходного файла.c> -o <имя исполняемого файла>```
